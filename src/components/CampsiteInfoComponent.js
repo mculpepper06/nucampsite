@@ -16,8 +16,6 @@ class CampsiteInfo extends Component {
 		);
 	}
 
-	// AMY INSTRUCTOR: misspelling of 'author' at line 32
-
 	renderComments(comments) {
 		if (comments) {
 			return (
@@ -28,7 +26,7 @@ class CampsiteInfo extends Component {
 							<div>
 								<p>
 									{comment.text} <br />
-									-- {comment.auther},
+									-- {comment.author},
 									{new Intl.DateTimeFormat("en-US", {
 										year: "numeric",
 										month: "short",
